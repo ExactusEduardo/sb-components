@@ -33,8 +33,15 @@ Tertiary.args = {
     color: 'tertiary'  // primary | secondary | tertiary
 }
 
-export const customFormColor = Template.bind({});
-customFormColor.args = {
+export const CustomFormColor = Template.bind({});
+CustomFormColor.args = {
     size: 'h1',
     fontColor: '#e5d127'
+}
+
+export const CustomBackgroundColor = Template.bind({});
+CustomBackgroundColor.args = {
+    size: 'h1',
+    fontColor: 'white',
+    backgroundColor: 'black'
 }
